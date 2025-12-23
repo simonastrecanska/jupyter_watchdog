@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "jupyter-watchdog"
 version = "0.1.0"
-description = "A robust Jupyter extension for cell execution notifications with audio support"
+description = "A Jupyter extension for cell execution notifications with audio support"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {file = "LICENSE"}

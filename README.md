@@ -6,12 +6,16 @@
 
 - **Browser & Desktop Notifications**: Native notifications that work even if your browser is in the background.
 - **Audio Feedback**: A subtle "beep" sound plays upon completion, using Web Audio API.
-- **Auto-Watchdog**: Automatically monitor *all* cells and alert you only if they run longer than a specific threshold (e.g., 60 seconds).
+- **Auto-Watchdog**: Automatically monitor *all* cells and alert you only if they run longer than a specific threshold.
 - **Discord Integration**: Optionally send notifications to a Discord channel.
 
 ## Installation & Loading
 
-Since this is a standalone Python file extension, ensure `jupyter_watchdog.py` is in your Python path or in the same directory as your notebook.
+Install the package via pip:
+
+```bash
+pip install jupyter-watchdog
+```
 
 Load the extension in your Jupyter Notebook/Lab:
 
@@ -53,7 +57,7 @@ To disable:
 ---
 
 ### 3. Discord Configuration (`%watchdog_setup`)
-To receive notifications on Discord (e.g., on your phone), you need a [Discord Webhook URL](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
+To receive notifications on Discord, you need a [Discord Webhook URL](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
 
 **Option A: Setup via Magic (Session only)**
 ```python

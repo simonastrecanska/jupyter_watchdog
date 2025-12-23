@@ -150,7 +150,7 @@ class NotifyMagics(Magics):
         
         if should_send_discord:
             discord_msg = f"**{title}**\n{msg_body}"
-            self._send_discord_request(self.webhook_url, discord_msg) # type: ignore
+            self._send_discord_request(self.webhook_url, discord_msg)
 
     def pre_run_cell_hook(self, info: Any) -> None:
         self.start_time = self._now()
