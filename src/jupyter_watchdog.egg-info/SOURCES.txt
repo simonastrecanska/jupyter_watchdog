@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/jupyter_watchdog/__init__.py
+src/jupyter_watchdog/watchdog.py
+src/jupyter_watchdog.egg-info/PKG-INFO
+src/jupyter_watchdog.egg-info/SOURCES.txt
+src/jupyter_watchdog.egg-info/dependency_links.txt
+src/jupyter_watchdog.egg-info/requires.txt
+src/jupyter_watchdog.egg-info/top_level.txt

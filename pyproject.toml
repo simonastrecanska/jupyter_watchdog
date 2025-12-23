@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jupyter-watchdog"
+version = "0.1.0"
+description = "A robust Jupyter extension for cell execution notifications with audio support"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Simona Strečanská", email = "simona.strec@gmail.com"}
+]
+keywords = ["jupyter", "ipython", "notification", "watchdog", "sound"]
+classifiers = [
+    "Framework :: Jupyter",
+    "Framework :: IPython",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests",
+    "ipython",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/simonastrecanska/jupyter_watchdog"
+"Bug Tracker" = "https://github.com/simonastrecanska/jupyter_watchdog/issues"
