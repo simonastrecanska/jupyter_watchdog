@@ -1,2 +1,8 @@
 __pycache__/
 .ipynb_checkpoints/
+
+# Packaging
+src/*.egg-info/
+*.egg-info/
+dist/
+build/
